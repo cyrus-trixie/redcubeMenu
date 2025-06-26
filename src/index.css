@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom radial gradient variables - REQUIRED for bg-radial-gradient */
+.bg-radial-gradient {
+  --tw-gradient-stops: var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%;
+}
+
+/* Optional: Hide scrollbar for category nav on some browsers, while keeping scroll functionality */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
