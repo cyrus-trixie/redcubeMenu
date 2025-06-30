@@ -8,7 +8,20 @@ import {
   Utensils,
   Heart,
 } from "lucide-react";
-
+import beefSausage from "../assets/dishes/beefsausage.jpg";
+import bestbreakfast from "../assets/dishes/bestbreakfast.jpg";
+import chocolateTea from "../assets/dishes/chocolate tea.jpg";
+import chomaSausage from "../assets/dishes/choma sausage.jpg";
+import englishBreakfast from "../assets/dishes/englishbreakfast.jpg";
+import frenchToast from "../assets/dishes/frenchToast.jpg";
+import gingerTea from "../assets/dishes/ginger tea.jpg";
+import lambChops from "../assets/dishes/lambChops.jpg";
+import lemonTea from "../assets/dishes/lemon tea.jpg";
+import milkshake from "../assets/dishes/milkshake.jpg";
+import miniBreakfast from "../assets/dishes/mini breakfast.jpg";
+import pancakes from "../assets/dishes/pancakes.jpg";
+import porkChoma from "../assets/dishes/porkChoma.jpg";
+import specialTea from "../assets/dishes/special tea.jpg";
 const menuData = [
   /* --------------------------------------------------- MAIN */
   {
@@ -30,7 +43,7 @@ const menuData = [
         description:
           "Juicy lamb chops marinated in garlic & rosemary, flame‑grilled to perfection.",
         price: "KSH 550",
-        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop",
+        image: lambChops,
       },
       {
         name: "Fish Fillet",
@@ -50,7 +63,7 @@ const menuData = [
         name: "Tilapia (whole)",
         description:
           "Fresh‑from‑Lake‑Vic tilapia, charcoal‑grilled & finished with lemon‑garlic butter.",
-        price: "KSH 1000",
+        price: "KSH 1250",
         image: "https://gingerandseasalt.com/wp-content/uploads/2023/09/grilled-tilapia-on-fish-plate.jpg",
       },
       {
@@ -108,7 +121,7 @@ const menuData = [
         name: "Pork Choma",
         description: "Slow‑roasted pork cuts, crackly on the outside, juicy inside.",
         price: "KSH 1500",
-        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=600&fit=crop",
+        image: porkChoma,
       },
       {
         name: "Chicken Broiler",
@@ -182,32 +195,32 @@ const menuData = [
         description:
           "Bacons, Eggs, Sausages, Grilled Tomato, Fried mushrooms/ Baked beans & Toast",
         price: "KSH 1200",
-        image: "https://c8.alamy.com/comp/P124A9/traditional-full-english-breakfast-with-fried-eggs-sausages-beans-mushrooms-grilled-tomatoes-and-bacon-on-wooden-background-top-view-P124A9.jpg",
+        image: englishBreakfast,
       },
       {
         name: "Best Breakfast",
         description: "Bread, Bacons, Eggs, Sausages, Toast / Pancake",
         price: "KSH 800",
-        image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&h=600&fit=crop",
+        image: bestbreakfast,
         featured: true,
       },
       {
         name: "Mini Breakfast",
         description: "Omellette, 1 Sausage, Toast, Eggs, Tea & Coffee",
         price: "KSH 500",
-        image: "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&h=600&fit=crop",
+        image: miniBreakfast,
       },
       {
         name: "Pancakes",
         description: "Fluffy pancakes served with maple syrup and butter",
         price: "KSH 400",
-        image: "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=800&h=600&fit=crop",
+        image: pancakes,
       },
       {
         name: "French Toast",
         description: "Golden-brown french toast with cinnamon and sugar",
         price: "KSH 350",
-        image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&h=600&fit=crop",
+        image: frenchToast,
       },
       {
         name: "Avocado Toast",
@@ -241,19 +254,19 @@ const menuData = [
         name: "Ginger Tea",
         description: "Fresh ginger‑infused tea – zingy & soothing.",
         price: "KSH 160",
-        image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
+        image: gingerTea,
       },
       {
         name: "Chocolate Tea",
         description: "Velvety hot chocolate brewed Kenyan‑style.",
         price: "KSH 120",
-        image: "https://images.unsplash.com/photo-1542990253-a781e04c0082?w=800&h=600&fit=crop",
+        image: chocolateTea,
       },
       {
         name: "Lemon Tea",
         description: "Zesty lemon & black tea – immune boost in a cup.",
         price: "KSH 130",
-        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&h=600&fit=crop",
+        image: lemonTea,
       },
       {
         name: "Glass of Milk",
@@ -265,7 +278,7 @@ const menuData = [
         name: "Milkshake (Vanilla/Strawberry)",
         description: "Thick, creamy & brain‑freeze worthy.",
         price: "KSH 350",
-        image: "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=800&h=600&fit=crop",
+        image: milkshake,
       },
       {
         name: "Smoothie",
@@ -277,7 +290,7 @@ const menuData = [
         name: "Special Tea (Tangawizi/Honey)",
         description: "House chai twisted with ginger & honey.",
         price: "KSH 200",
-        image: "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&h=600&fit=crop",
+        image: specialTea,
       },
     ],
   },
@@ -289,8 +302,8 @@ const menuData = [
     gradient: "from-green-500 to-blue-400",
     items: [
       // Snacks
-      { name: "Beef Sausage", description: "Pan‑fried beef sausage, juicy & smoky.", price: "KSH 70", image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&h=600&fit=crop" },
-      { name: "Choma Sausage", description: "Char‑grilled sausage with a crispy snap.", price: "KSH 120", image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&h=600&fit=crop" },
+      { name: "Beef Sausage", description: "Pan‑fried beef sausage, juicy & smoky.", price: "KSH 70", image: beefSausage},
+      { name: "Choma Sausage", description: "Char‑grilled sausage with a crispy snap.", price: "KSH 120", image: chomaSausage },
       { name: "Samosa", description: "Crispy pastry stuffed with spiced minced beef.", price: "KSH 60", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&h=600&fit=crop" },
       { name: "Mandazi", description: "Pillow‑soft Swahili doughnut, lightly sugared.", price: "KSH 50", image: "https://images.unsplash.com/photo-1549007953-2f2dc0b24019?w=800&h=600&fit=crop" },
       { name: "French Fries", description: "Golden‑fried potato sticks, salt‑sprinkled.", price: "KSH 200", image: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&h=600&fit=crop" },
@@ -444,13 +457,14 @@ const RedCubeMenu = () => {
 
               <div className="flex flex-col md:flex-row">
                 {/* IMG */}
-                <div className="md:w-1/3 h-48 md:h-auto relative overflow-hidden">
+                <div className="md:w-1/3 w-full h-48 md:h-56 relative overflow-hidden flex-shrink-0">
                   <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-transparent z-10" />
                   {item.image ? (
                     <img
                       src={item.image}
                       alt={item.name}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      style={{ minHeight: '12rem', maxHeight: '14rem', minWidth: '100%', objectFit: 'cover' }}
                       onError={(e) => {
                         e.target.onerror = null;
                         e.target.src = "/placeholder-food.jpg";
