@@ -22,6 +22,19 @@ import miniBreakfast from "../assets/dishes/mini breakfast.jpg";
 import pancakes from "../assets/dishes/pancakes.jpg";
 import porkChoma from "../assets/dishes/porkChoma.jpg";
 import specialTea from "../assets/dishes/special tea.jpg";
+import chipsMasala from "../assets/dishes/chipsMasala.jpg";
+import chipsMayai from "../assets/dishes/chipsMayai.jpg";
+import extraHoney from "../assets/dishes/extraHoney.jpg";
+import FishFingers from "../assets/dishes/FishFingers.jpg";
+import Gizzards from "../assets/dishes/Gizzards.jpg";
+import HotdogChipsSalad from "../assets/dishes/HotdogChipsSalad.jpg";
+import mandazi from "../assets/dishes/mandazi.jpg";
+import platter1 from "../assets/dishes/platter1.jpg";
+import platter2 from "../assets/dishes/platter2.jpg";
+import platter3 from "../assets/dishes/platter3.jpg";
+import SauteePotatoes from "../assets/dishes/SauteePotatoes.jpg";
+import mutura from "../assets/dishes/mutura.jpg";
+import roastedPotato from "../assets/dishes/roastedPotato.jpg";
 const menuData = [
   /* --------------------------------------------------- MAIN */
   {
@@ -305,18 +318,18 @@ const menuData = [
       { name: "Beef Sausage", description: "Pan‑fried beef sausage, juicy & smoky.", price: "KSH 70", image: beefSausage},
       { name: "Choma Sausage", description: "Char‑grilled sausage with a crispy snap.", price: "KSH 120", image: chomaSausage },
       { name: "Samosa", description: "Crispy pastry stuffed with spiced minced beef.", price: "KSH 60", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&h=600&fit=crop" },
-      { name: "Mandazi", description: "Pillow‑soft Swahili doughnut, lightly sugared.", price: "KSH 50", image: "https://images.unsplash.com/photo-1549007953-2f2dc0b24019?w=800&h=600&fit=crop" },
+      { name: "Mandazi", description: "Pillow‑soft Swahili doughnut, lightly sugared.", price: "KSH 50", image: mandazi},
       { name: "French Fries", description: "Golden‑fried potato sticks, salt‑sprinkled.", price: "KSH 200", image: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&h=600&fit=crop" },
-      { name: "Roasted Potatoes", description: "Herb‑seasoned wedges, oven‑roasted.", price: "KSH 250", image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop" },
+      { name: "Roasted Potatoes", description: "Herb‑seasoned wedges, oven‑roasted.", price: "KSH 250", image: roastedPotato },
       { name: "Beef Burger", description: "Quarter‑pound patty, cheese, lettuce & house sauce.", price: "KSH 900", featured: true, image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" },
-      { name: "Mutura", description: "Kenyan street‑style blood sausage, smoky & spicy.", price: "KSH 300", image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&h=600&fit=crop" },
-      { name: "Chips Masala", description: "Fries tossed in tomato masala & dhania.", price: "KSH 250", image: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&h=600&fit=crop" },
-      { name: "Chips Mayai", description: "Fries bound in a fluffy egg omelette.", price: "KSH 280", image: "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=800&h=600&fit=crop" },
-      { name: "Sautee Potatoes", description: "Butter‑pan potatoes with herbs.", price: "KSH 250", image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=800&h=600&fit=crop" },
-      { name: "Hotdog + Chips + Salad", description: "The ultimate trio plate.", price: "KSH 550", image: "https://images.unsplash.com/photo-1612392061787-2ca573d6c5ae?w=800&h=600&fit=crop" },
-      { name: "Fish Fingers", description: "Breaded fish strips with tartar dip.", price: "KSH 450", image: "https://images.unsplash.com/photo-1519708227418-c8947a684baf?w=800&h=600&fit=crop" },
+      { name: "Mutura", description: "Kenyan street‑style blood sausage, smoky & spicy.", price: "KSH 300", image: mutura },
+      { name: "Chips Masala", description: "Fries tossed in tomato masala & dhania.", price: "KSH 250", image: chipsMasala },
+      { name: "Chips Mayai", description: "Fries bound in a fluffy egg omelette.", price: "KSH 280", image: chipsMayai },
+      { name: "Sautee Potatoes", description: "Butter‑pan potatoes with herbs.", price: "KSH 250", image: SauteePotatoes },
+      { name: "Hotdog + Chips + Salad", description: "The ultimate trio plate.", price: "KSH 550", image: HotdogChipsSalad },
+      { name: "Fish Fingers", description: "Breaded fish strips with tartar dip.", price: "KSH 450", image: FishFingers },
       { name: "Chicken Nuggets", description: "Crispy chicken bites – can't eat just one.", price: "KSH 500", image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&h=600&fit=crop" },
-      { name: "Gizzards", description: "Spicy fried chicken gizzards, a local fave.", price: "KSH 450", image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=800&h=600&fit=crop" },
+      { name: "Gizzards", description: "Spicy fried chicken gizzards, a local fave.", price: "KSH 450", image: Gizzards },
       { name: "Chicken Wings", description: "6pc wings glazed in BBQ sauce.", price: "KSH 500", image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800&h=600&fit=crop" },
       { name: "Chicken / Beef Burger", description: "Pick your protein – same epic toppings.", price: "KSH 900", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" },
       { name: "Chicken/Beef/Egg Sandwich", description: "Toasted triple‑decker classic.", price: "KSH 450", image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=800&h=600&fit=crop" },
@@ -327,7 +340,7 @@ const menuData = [
       { name: "Chef Salad", description: "All‑in mix of greens, ham, cheese & egg.", price: "KSH 200", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
       // Extras
       { name: "Extra Coffee Sachet", description: "Need more caffeine? Add a sachet.", price: "KSH 50", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop" },
-      { name: "Extra Honey", description: "Natural honey shot for your tea.", price: "KSH 50", image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop" },
+      { name: "Extra Honey", description: "Natural honey shot for your tea.", price: "KSH 50", image: extraHoney },
     ],
   },
   /* --------------------------------------------------- PLATTER */
@@ -337,9 +350,9 @@ const menuData = [
     icon: Utensils,
     gradient: "from-green-500 to-yellow-400",
     items: [
-      { name: "Platter 1", description: "Samosa, Choma Sausage, Meat dry fry, Chicken broiler, Portion of roast potatoes, Ugali Portions, Chapatis, Pork chops", price: "KSH 3400", image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop" },
-      { name: "Platter 2", description: "Portion of vegetable rice, Portion of chicken wings, Meat-wet fry, Portion of stir fried vegetables, Matumbo wet dry, Greens, Portion of ugali, Portion of french fries", price: "KSH 2550", image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&h=600&fit=crop" },
-      { name: "Platter 3", description: "Portion of fish fingers, Portion of chicken wings, Hot dogs, Portion of french fries, Sodas", price: "KSH 2400", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
+      { name: "Platter 1", description: "Samosa, Choma Sausage, Meat dry fry, Chicken broiler, Portion of roast potatoes, Ugali Portions, Chapatis, Pork chops", price: "KSH 3400", image: platter1 },
+      { name: "Platter 2", description: "Portion of vegetable rice, Portion of chicken wings, Meat-wet fry, Portion of stir fried vegetables, Matumbo wet dry, Greens, Portion of ugali, Portion of french fries", price: "KSH 2550", image: platter2 },
+      { name: "Platter 3", description: "Portion of fish fingers, Portion of chicken wings, Hot dogs, Portion of french fries, Sodas", price: "KSH 2400", image: platter3 },
    { name: "Platter 4", description: "Nyama choma, Kienyeji Chicken, Gizzard, Ugali portion, Mukimo, Roast potato, Kachumbari", price: "KSH 3250", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
     ],
   },
