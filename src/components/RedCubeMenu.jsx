@@ -32,9 +32,15 @@ import mandazi from "../assets/dishes/mandazi.jpg";
 import platter1 from "../assets/dishes/platter1.jpg";
 import platter2 from "../assets/dishes/platter2.jpg";
 import platter3 from "../assets/dishes/platter3.jpg";
+import platter4 from "../assets/dishes/platter4.jpg";
 import SauteePotatoes from "../assets/dishes/SauteePotatoes.jpg";
 import mutura from "../assets/dishes/mutura.jpg";
 import roastedPotato from "../assets/dishes/roastedPotato.jpg";
+import caesarSaladCrispyChicken from "../assets/dishes/caesar-salad-crispy-chicken.jpg";
+import coleslaw from "../assets/dishes/coleslaw.jpg";
+import kukuChoma from "../assets/dishes/kuku-choma.jpg";
+import mbuziChoma from "../assets/dishes/mbuziChoma.jpg";
+import porkChomaJpeg from "../assets/dishes/porkChoma.jpeg";
 const menuData = [
   /* --------------------------------------------------- MAIN */
   {
@@ -121,7 +127,7 @@ const menuData = [
         name: "Mbuzi Choma",
         description: "Charcoal‑roasted goat, served juicy & tender – perfect for sharing.",
         price: "KSH 1400",
-        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&h=600&fit=crop",
+        image: mbuziChoma,
         featured: true,
       },
       {
@@ -134,7 +140,7 @@ const menuData = [
         name: "Pork Choma",
         description: "Slow‑roasted pork cuts, crackly on the outside, juicy inside.",
         price: "KSH 1500",
-        image: porkChoma,
+        image: porkChomaJpeg,
       },
       {
         name: "Chicken Broiler",
@@ -147,6 +153,12 @@ const menuData = [
         description: "Free‑range kienyeji chicken, stewed with traditional herbs.",
         price: "KSH 1800",
         image: "https://img-global.cpcdn.com/recipes/e50ebe2154d9ce83/1200x630cq70/photo.jpg",
+      },
+      {
+        name: "Kuku Choma",
+        description: "Charcoal-grilled chicken, crispy skin, juicy inside, Kenyan style.",
+        price: "KSH 1500",
+        image: kukuChoma,
       },
     ],
   },
@@ -334,9 +346,9 @@ const menuData = [
       { name: "Chicken / Beef Burger", description: "Pick your protein – same epic toppings.", price: "KSH 900", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" },
       { name: "Chicken/Beef/Egg Sandwich", description: "Toasted triple‑decker classic.", price: "KSH 450", image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=800&h=600&fit=crop" },
       // Salads
-      { name: "Coleslaw", description: "Creamy slaw of cabbage & carrots.", price: "KSH 150", image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&h=600&fit=crop" },
+      { name: "Coleslaw", description: "Creamy slaw of cabbage & carrots.", price: "KSH 150", image: coleslaw },
       { name: "Fruit Salad", description: "Seasonal fruit medley, chilled & juicy.", price: "KSH 200", image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&h=600&fit=crop" },
-      { name: "Chicken Scissors Salad", description: "Grilled chicken strips over fresh greens.", price: "KSH 600", image: "https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051.jpg" },
+      { name: "Chicken Scissors Salad", description: "Grilled chicken strips over fresh greens.", price: "KSH 600", image: caesarSaladCrispyChicken },
       { name: "Chef Salad", description: "All‑in mix of greens, ham, cheese & egg.", price: "KSH 200", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
       // Extras
       { name: "Extra Coffee Sachet", description: "Need more caffeine? Add a sachet.", price: "KSH 50", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop" },
@@ -353,7 +365,7 @@ const menuData = [
       { name: "Platter 1", description: "Samosa, Choma Sausage, Meat dry fry, Chicken broiler, Portion of roast potatoes, Ugali Portions, Chapatis, Pork chops", price: "KSH 3400", image: platter1 },
       { name: "Platter 2", description: "Portion of vegetable rice, Portion of chicken wings, Meat-wet fry, Portion of stir fried vegetables, Matumbo wet dry, Greens, Portion of ugali, Portion of french fries", price: "KSH 2550", image: platter2 },
       { name: "Platter 3", description: "Portion of fish fingers, Portion of chicken wings, Hot dogs, Portion of french fries, Sodas", price: "KSH 2400", image: platter3 },
-   { name: "Platter 4", description: "Nyama choma, Kienyeji Chicken, Gizzard, Ugali portion, Mukimo, Roast potato, Kachumbari", price: "KSH 3250", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
+   { name: "Platter 4", description: "Nyama choma, Kienyeji Chicken, Gizzard, Ugali portion, Mukimo, Roast potato, Kachumbari", price: "KSH 3250", image: platter4 },
     ],
   },
 
@@ -399,7 +411,7 @@ const RedCubeMenu = () => {
       {/* Category Nav */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 shadow-xl">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex overflow-x-auto space-x-3 pb-2 scrollbar-hide">
+          <div className="flex overflow-x-auto space-x-3 pb-2 scrollbar-hide pr-4">
             {menuData.map(({ id, title, icon: IconComponent, gradient }) => (
               <button
                 key={id}
@@ -512,7 +524,10 @@ const RedCubeMenu = () => {
                       </span>
                     </div>
 
-                    <button className="bg-gray-100 hover:bg-red-600 hover:text-white text-gray-700 px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <button
+                      className="bg-gray-100 hover:bg-red-600 hover:text-white text-gray-700 px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                      onClick={() => window.open('tel:0722524264')}
+                    >
                       Order Now
                     </button>
                   </div>
@@ -531,9 +546,16 @@ const RedCubeMenu = () => {
             <p className="text-red-100 mb-6 text-lg">
               Visit Red Cube Bar & Restaurant today and experience authentic Kenyan cuisine
             </p>
-            <button className="bg-white text-red-600 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <button
+              className="bg-white text-red-600 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-red-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              onClick={() => window.open('tel:0722524264')}
+            >
               Make a Reservation
             </button>
+            <div className="mt-3 text-white text-lg font-semibold">
+              call 0722524264
+            </div>
+        
           </div>
         </div>
       </main>
