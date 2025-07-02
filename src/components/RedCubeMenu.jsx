@@ -1,3 +1,4 @@
+import chickenbeefegg from "../assets/dishes/chickenbeefegg.jpg";
 import React, { useState } from "react";
 import {
   ChefHat,
@@ -344,7 +345,7 @@ const menuData = [
       { name: "Gizzards", description: "Spicy fried chicken gizzards, a local fave.", price: "KSH 450", image: Gizzards },
       { name: "Chicken Wings", description: "6pc wings glazed in BBQ sauce.", price: "KSH 500", image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800&h=600&fit=crop" },
       { name: "Chicken / Beef Burger", description: "Pick your protein – same epic toppings.", price: "KSH 900", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" },
-      { name: "Chicken/Beef/Egg Sandwich", description: "Toasted triple‑decker classic.", price: "KSH 450", image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=800&h=600&fit=crop" },
+      { name: "Chicken/Beef/Egg Sandwich", description: "Toasted triple‑decker classic.", price: "KSH 450", image: chickenbeefegg },
       // Salads
       { name: "Coleslaw", description: "Creamy slaw of cabbage & carrots.", price: "KSH 100", image: coleslaw },
       { name: "Fruit Salad", description: "Seasonal fruit medley, chilled & juicy.", price: "KSH 200", image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&h=600&fit=crop" },
