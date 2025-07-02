@@ -30,10 +30,10 @@ import FishFingers from "../assets/dishes/FishFingers.jpg";
 import Gizzards from "../assets/dishes/Gizzards.jpg";
 import HotdogChipsSalad from "../assets/dishes/HotdogChipsSalad.jpg";
 import mandazi from "../assets/dishes/mandazi.jpg";
-import platter1 from "../assets/dishes/platter1.jpg";
-import platter2 from "../assets/dishes/platter2.jpg";
-import platter3 from "../assets/dishes/platter3.jpg";
-import platter4 from "../assets/dishes/platter4.jpg";
+import platter1 from "../assets/dishes/platter1update.jpg";
+import platter2 from "../assets/dishes/platter2update.png";
+import platter3 from "../assets/dishes/platter3update.jpg";
+import platter4 from "../assets/dishes/platter4update.jpg";
 import SauteePotatoes from "../assets/dishes/SauteePotatoes.jpg";
 import mutura from "../assets/dishes/mutura.jpg";
 import roastedPotato from "../assets/dishes/roastedPotato.jpg";
@@ -366,7 +366,7 @@ const menuData = [
       { name: "Platter 1", description: "Samosa, Choma Sausage, Meat dry fry, Chicken broiler, Portion of roast potatoes, Ugali Portions, Chapatis, Pork chops", price: "KSH 3400", image: platter1 },
       { name: "Platter 2", description: "Portion of vegetable rice, Portion of chicken wings, Meat-wet fry, Portion of stir fried vegetables, Matumbo wet dry, Greens, Portion of ugali, Portion of french fries", price: "KSH 2550", image: platter2 },
       { name: "Platter 3", description: "Portion of fish fingers, Portion of chicken wings, Hot dogs, Portion of french fries, Sodas", price: "KSH 2400", image: platter3 },
-   { name: "Platter 4", description: "Nyama choma, Kienyeji Chicken, Gizzard, Ugali portion, Mukimo, Roast potato, Kachumbari", price: "KSH 3250", image: platter4 },
+      { name: "Platter 4", description: "Nyama choma, Kienyeji Chicken, Gizzard, Ugali portion, Mukimo, Roast potato, Kachumbari", price: "KSH 3250", image: platter4 },
     ],
   },
 
