@@ -170,8 +170,8 @@ const menuData = [
     gradient: "from-blue-400 to-purple-500",
     items: [
       {
-        name: "Chicken Tenders",
-        description: "Crispy strips of chicken breast with a side of ketchup.",
+        name: "Chicken Nuggets",
+        description: "Crispy chicken bites – can't eat just one.",
         price: "KSH 500",
         image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&h=600&fit=crop",
       },
@@ -282,7 +282,7 @@ const menuData = [
         image: gingerTea,
       },
       {
-        name: "Chocolate Tea",
+        name: "Hot Chocolate",
         description: "Velvety hot chocolate brewed Kenyan‑style.",
         price: "KSH 120",
         image: chocolateTea,
@@ -346,13 +346,13 @@ const menuData = [
       { name: "Chicken / Beef Burger", description: "Pick your protein – same epic toppings.", price: "KSH 900", image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" },
       { name: "Chicken/Beef/Egg Sandwich", description: "Toasted triple‑decker classic.", price: "KSH 450", image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=800&h=600&fit=crop" },
       // Salads
-      { name: "Coleslaw", description: "Creamy slaw of cabbage & carrots.", price: "KSH 150", image: coleslaw },
+      { name: "Coleslaw", description: "Creamy slaw of cabbage & carrots.", price: "KSH 100", image: coleslaw },
       { name: "Fruit Salad", description: "Seasonal fruit medley, chilled & juicy.", price: "KSH 200", image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=800&h=600&fit=crop" },
-      { name: "Chicken Scissors Salad", description: "Grilled chicken strips over fresh greens.", price: "KSH 600", image: caesarSaladCrispyChicken },
+      { name: "Chicken Caesar Salad", description: "Grilled chicken strips over fresh greens.", price: "KSH 600", image: caesarSaladCrispyChicken },
       { name: "Chef Salad", description: "All‑in mix of greens, ham, cheese & egg.", price: "KSH 200", image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=600&fit=crop" },
       // Extras
-      { name: "Extra Coffee Sachet", description: "Need more caffeine? Add a sachet.", price: "KSH 50", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop" },
-      { name: "Extra Honey", description: "Natural honey shot for your tea.", price: "KSH 50", image: extraHoney },
+      { name: "Extra Coffee Sachet", description: "Need more caffeine? Add a sachet.", price: "KSH 30", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop" },
+      { name: "Extra Honey", description: "Natural honey shot for your tea.", price: "KSH 30", image: extraHoney },
     ],
   },
   /* --------------------------------------------------- PLATTER */
