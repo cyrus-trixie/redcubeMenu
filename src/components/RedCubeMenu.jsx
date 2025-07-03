@@ -489,6 +489,7 @@ const RedCubeMenu = () => {
                     <img
                       src={item.image}
                       alt={item.name}
+                      loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       style={{ minHeight: '12rem', maxHeight: '14rem', minWidth: '100%', objectFit: 'cover' }}
                       onError={(e) => {
