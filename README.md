@@ -1,6 +1,6 @@
-# Wahu Mbatia Website – Static Site
+#RedCube restaurant digital menu
 
-This repository contains the source code for **[Client Name]**'s website, built and managed by Cyrus Ngugi.
+This repository contains the source code for **Wahu Mbatia**'s website, built and managed by Cyrus Ngugi.
 
 ## 🔧 Tech Stack
 - React js / Tailwinc css
