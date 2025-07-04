@@ -8,7 +8,7 @@ This repository contains the source code for **Wahu Mbatia**'s website, built an
 - Domain registered via HostPinnacle
 
 ## 🚀 Live Site
-🌐 [https://www.clientwebsite.com](https://www.redcube.co.ke)
+🌐 //https://www.redcube.co.ke
 
 ## 📄 Info
 This is a static website, no backend or CMS involved. All updates are done via code.
